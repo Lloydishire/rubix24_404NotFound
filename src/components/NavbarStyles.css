@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    padding: 0 1rem;
+    position: relative;
+}
+
+.nav-menu li a {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.nav-menu li a:hover,
+.nav-menu li a.active {
+    color: #66339C;
+}
+
+.nav-menu li a.active::after,
+.nav-menu li a:hover::after {
+    content: "";
+    width: 20%;
+    height: 2px;
+    background: #66339C;
+    position: absolute;
+    bottom: -4px;
+    left: 35px;
+}
+
+img {
+    height: 5rem;
+    width: 10rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    list-style: none;
+    padding: 0;
+}
+.nav-menu li:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu li {
+    padding: 1rem 0;
+}
+
+.dropdown-menu li a {
+    color: #DFFCD9;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover,
+.dropdown-menu li a.active {
+    color: #66339C;
+}
+
+.dropdown-menu li a.active::after,
+.dropdown-menu li a:hover::after {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background: #66339C;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+

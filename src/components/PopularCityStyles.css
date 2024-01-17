@@ -1,0 +1,89 @@
+.popularcity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .popularcity h2 {
+    font-size: 3.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .popularcity h2,
+  .popularcity p {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .ButtonContainer {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .Button {
+    cursor: pointer;
+    width: 8rem;
+    height: 2.5rem;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px #1F4D52 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .ButtonGreen {
+    background: #DAED82;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .ButtonText {
+    color: #495560;
+    font-size: 14px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  .CityInfo{
+    width: 50%;
+    height: min-content;
+  }
+  .CityInfo h3 {
+    margin: 2rem;
+    font-size: 3rem;
+    color: #1C2B38;
+    margin-bottom: 1rem;
+  }
+
+  .CityInfo h4 {
+    margin: 2rem;
+    font-size: 1rem;
+    color: #778088;
+    line-height: 1.5;
+  }
+
+  /* ... (your existing styling) */
+
+.TourCard {
+    width: 270px;
+    height: 405px;
+    position: relative;
+    margin: 10px;
+  }
+  
+  .GridComponent {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,99 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/HeroImg.svg");
+    background-repeat: no-repeat;
+  }
+h2{
+    padding: 0rem 6rem;
+    font-size: 4rem;
+    font-weight: 900;
+} 
+.title{
+    width: 80%;
+    height: 60vh;
+}
+p{
+    padding: 1rem 6rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+button{
+    margin-left: 6rem;
+    margin-bottom: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.greenbtn{
+    background-color: #DAED82;
+}
+
+.title p{
+    margin-top:1.5rem ;
+}
+.translucent {
+  width: 80%;
+  height: 5rem;
+  margin-left: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(104, 104, 104, 0.4);
+  border-radius: 20px;
+  border: 1px rgba(255, 255, 255, 0.8) solid;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.Frame23 {
+    width: 160px;
+    height: 54px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .Hotels {
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  .Frame22 {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+    display: inline-flex;
+  }
+  
+  .ViewTheRightHotelsForYou {
+    color: white;
+    font-size: 10px;
+    font-family: 'Inter';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .IconmonstrLocation11 {
+    width: 10px;
+    height: 10px;
+    padding-left: 1.67px;
+    padding-right: 1.67px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+
+  
