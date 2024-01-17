@@ -3,7 +3,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/database';
 import firebaseConfig from './firebaseConfig';
 import Text from './Text'; // Import the new Text component
-import './Message.css'; // Import the CSS file for styling
+import './CSS/Message.css'; // Import the CSS file for styling
 
 const Message = ({ uid }) => {
   const [uidData, setUidData] = useState([]);

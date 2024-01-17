@@ -1,6 +1,6 @@
 // LM component
 import React from 'react';
-import './Chat.css'; // Import the CSS file
+import './CSS/Chat.css'; // Import the CSS file
 
 const LM = ({ m }) => {
   return (

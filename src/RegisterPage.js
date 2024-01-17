@@ -5,7 +5,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import { getDatabase, ref, set } from 'firebase/database';
 import firebaseConfig from './firebaseConfig'; // Import your Firebase configuration
-import './RegisterPage.css'; // Import your CSS file
+import './js/CSS/RegisterPage.css'; // Import your CSS file
 
 const RegisterPage = ({ onLoginSuccess }) => {
   const [email, setEmail] = useState('');

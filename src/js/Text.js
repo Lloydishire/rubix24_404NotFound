@@ -4,7 +4,7 @@ import 'firebase/compat/database';
 import firebaseConfig from './firebaseConfig';
 import LM from './LM';
 import RM from './RM';
-import './Chat.css';
+import './CSS/Chat.css';
 
 const Text = ({ id1, id2, username, imageURL }) => {
   const [messages, setMessages] = useState([]);
