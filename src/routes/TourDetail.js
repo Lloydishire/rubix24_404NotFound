@@ -1,4 +1,3 @@
-// TourDetail.js
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { db } from '../firebase';
@@ -40,7 +39,6 @@ const TourDetail = () => {
           <p>Reviews: {tourDetails.review}</p>
           <p>Facilities: {tourDetails.facilities}</p>
           <p>City: {tourDetails.city}</p>
-          {/* Add more details as needed */}
         </>
       ) : (
         <p>Loading tour details...</p>
